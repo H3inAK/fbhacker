@@ -55,7 +55,7 @@ def function(email,passw,i):
 
 #payload=create_form()
 print('___________________________________________________________________________\n')
-file=open('passward.txt','r')
+file=open('passwords.lst','r')
 i=0
 print(" --------------[FB-Hacker-Pro]---------------\n")
 print(" --------------------------------------------\n\n")
