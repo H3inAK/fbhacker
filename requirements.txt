@@ -1,5 +1,4 @@
 threadings
-Beautifulsoup4
 requests
 bs4
 os
