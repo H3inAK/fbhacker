@@ -1,5 +1,2 @@
-threading
 requests
 bs4
-os
-urllib
