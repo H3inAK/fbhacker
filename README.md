@@ -8,7 +8,7 @@ Usage :
       python3 -m pip install -r requirements.txt
       python3 fbbrute.py
       
-you can also set your own passlist by typing nano <filename.txt> and exit fbbrute.py by calling nano.
+you can also set your own passlist by typing nano <filename.txt> and edit fbbrute.py by calling nano.
 
 Enjoy ^_^ 
 
