@@ -60,9 +60,9 @@ i=0
 print(" --------------[FB-Hacker-Pro]---------------\n")
 print(" --------------------------------------------\n\n")
 print("    Author - Hein Arkar(Wtobe_Shining_Star) \n\n")
-email=input('Enter Email : ')
+email=input('Enter Email of victim : ')
 print("")
-print("Target Email ID : ",email)
+print      ("Target Email ID       : "+email)
 print("")
 while file:
 	passw=file.readline().strip()
