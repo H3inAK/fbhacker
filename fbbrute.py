@@ -67,7 +67,7 @@ print("")
 while file:
 	passw=file.readline().strip()
 	i+=1
-	print("Trying Password " + str(i) +": ",passw, "\t\tNot Found ") 
+	print("Trying Password " + str(i) +": ",passw+ "\t\tNot Found ") 
 	if function(email,passw,i):
 		break
 	# threading.Thread(target=function,args=(email,passw,i)).start()
