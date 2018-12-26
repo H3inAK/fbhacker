@@ -1,4 +1,4 @@
-threadings
+threading
 requests
 bs4
 os
