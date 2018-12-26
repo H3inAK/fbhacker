@@ -12,3 +12,7 @@ you can also set your own passlist by typing nano <filename.txt> and edit fbbrut
 
 Enjoy ^_^ 
 
+Tested on Ubuntu 18.04
+          Termux
+          Windows10
+ 
