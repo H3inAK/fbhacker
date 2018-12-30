@@ -61,7 +61,18 @@ i=0
 print(" --------------[FB-Hacker-Pro]---------------\n")
 print(" --------------------------------------------\n\n")
 print("   Author - Hein Arkar(Wtobe_Shining_Star) \n\n")
-email=input('Enter Email of victim : ')
+
+print('''              ▇▇▇◤▔▔▔▔▔▔▔◥▇▇▇
+              ▇▇▇▏◥▇◣┊◢▇◤▕▇▇▇
+              ▇▇▇▏▃▆▅▎▅▆▃▕▇▇▇     this tool can crack victims' password 
+              ▇▇▇▏╱▔▕▎▔▔╲▕▇▇▇        even if you don't know victim's email
+              ▇▇▇◣◣▃▅▎▅▃◢◢▇▇▇
+              ▇▇▇▇◣◥▅▅▅◤◢▇▇▇▇
+              ▇▇▇▇▇◣╲▇╱◢▇▇▇▇▇        version - v-2.0.1
+              ▇▇▇▇▇▇◣▇◢▇▇▇▇▇▇
+                                ''')
+
+email=input      ('Enter Email of victim : ')
 print("")
 print            ("Target Email ID       : "+email)
 print("")
