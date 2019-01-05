@@ -17,7 +17,7 @@ you can enter custom password file
 
 Trying Passwords
 
-<img src="updatefbhacker1.png" width="800">
+<img src="updatefbhacker1.png" width="888">
       
 Enjoy ^_^ 
 
