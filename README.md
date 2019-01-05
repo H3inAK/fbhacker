@@ -8,7 +8,9 @@ Usage :
       $pip3 install -r requirements.txt
       $python3 fbbrute.py
       
-
+![](images/updatefbhacker.png)
+![](images/updatefbahcker1.png)
+      
 Enjoy ^_^ 
 
 Tested on Ubuntu 18.04
