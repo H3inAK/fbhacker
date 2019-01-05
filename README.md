@@ -7,8 +7,14 @@ Usage :
       $cd fbhacker
       $pip3 install -r requirements.txt
       $python3 fbbrute.py
-      
+
+you can enter custom password file
+==================================
+
 ![](updatefbhacker.png)
+
+Trying Passwords
+****************
 
 ![](updatefbahcker1.png)
       
