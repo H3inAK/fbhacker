@@ -15,7 +15,7 @@ you can enter custom password file
 
 Trying Passwords
 ****************
-<img src="updatefbhacker1.png" width="100">
+<img src="updatefbhacker1.png" width="800">
 ![](updatefbhacker1.png)
       
 Enjoy ^_^ 
