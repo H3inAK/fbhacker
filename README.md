@@ -8,11 +8,11 @@ Usage :
       $pip3 install -r requirements.txt
       $python3 fbbrute.py
       
-you can also set your own passlist by typing nano <filename.txt> and edit fbbrute.py by calling nano.
 
 Enjoy ^_^ 
 
 Tested on Ubuntu 18.04
           Termux
+          Kali linux18.04
           Windows10
  
