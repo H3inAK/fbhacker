@@ -8,8 +8,8 @@ Usage :
       $pip3 install -r requirements.txt
       $python3 fbbrute.py
       
-![](images/updatefbhacker.png)
-![](images/updatefbahcker1.png)
+![](updatefbhacker.png)
+![](updatefbahcker1.png)
       
 Enjoy ^_^ 
 
