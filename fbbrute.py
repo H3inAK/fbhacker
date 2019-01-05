@@ -62,11 +62,11 @@ print("*  Author - Hein Arkar(Wtobe_Shining_Star) \n\n")
 
 print('''              ▇▇▇◤▔▔▔▔▔▔▔◥▇▇▇
               ▇▇▇▏◥▇◣┊◢▇◤▕▇▇▇
-              ▇▇▇▏▃▆▅▎▅▆▃▕▇▇▇     this tool can crack victims' password 
+           *  ▇▇▇▏▃▆▅▎▅▆▃▕▇▇▇     this tool can crack victims' password 
               ▇▇▇▏╱▔▕▎▔▔╲▕▇▇▇        even if you don't know victim's email
               ▇▇▇◣◣▃▅▎▅▃◢◢▇▇▇
-              ▇▇▇▇◣◥▅▅▅◤◢▇▇▇▇
-              ▇▇▇▇▇◣╲▇╱◢▇▇▇▇▇        version - v-2.0.1
+*             ▇▇▇▇◣◥▅▅▅◤◢▇▇▇▇*                               
+              ▇▇▇▇▇◣╲▇╱◢▇▇▇▇▇        version - v-2.0.1  *
               ▇▇▇▇▇▇◣▇◢▇▇▇▇▇▇
                                 ''')
 
