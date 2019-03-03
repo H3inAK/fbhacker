@@ -72,8 +72,6 @@ print('''              ▇▇▇◤▔▔▔▔▔▔▔◥▇▇▇
 
 email=input      ('Enter Email of victim : ')
 print("")
-print            ("Target Email ID       : "+email)
-print("")
 
 passlist = input ("Enter password file   : ")
 print ("")
